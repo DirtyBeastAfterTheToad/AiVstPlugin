@@ -1,0 +1,8 @@
+{
+  "BPM": 130,
+  "timeSigNumerator": 4,
+  "timeSigDenominator": 4,
+  "numberOfGens": 1,
+  "scale": "C major",
+  "prompt": "some testing sample"
+}

@@ -1,0 +1,12 @@
+For setup:
+>Install conda
+>Add conda path (C:\Users\ryanl\anaconda3\Scripts) to environments variable
+>conda create -n MusicGen python=3.9
+conda activate MusicGen
+conda install ffmpeg
+pip install git+https://github.com/facebookresearch/audiocraft.git
+pip uninstall torch
+pip cache purge
+conda install pytorch==2.1.0 pytorch-cuda=12.1 -c pytorch -c nvidia
+cd userDocs/AiPluginFile
+generate.py
