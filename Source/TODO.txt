@@ -10,3 +10,17 @@ pip cache purge
 conda install pytorch==2.1.0 pytorch-cuda=12.1 -c pytorch -c nvidia
 cd userDocs/AiPluginFile
 generate.py
+
+
+TODO:
+-Change UI
+-Display the root note in another color
+-React to stop from DAW
+-Add a sound display like in FL
+-add "start sample"
+- "end sample"
+- ?pitch? 
+- ?time?
+- fade in 
+- fade out
+-Envelope ?
