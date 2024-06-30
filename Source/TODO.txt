@@ -12,6 +12,14 @@ cd userDocs/AiPluginFile
 generate.py
 
 
+
+=!!=
+EMBED PYTHON
+https://docs.python.org/3/using/windows.html#windows-embeddable
++make a venv just in case? Normally files should be in their own container so might not need
+=!!=
+
+
 TODO:
 -Change UI
 -Display the root note in another color
