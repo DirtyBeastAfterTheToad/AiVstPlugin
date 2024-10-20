@@ -4,6 +4,8 @@ public:
     CustomMidiKeyboardComponent(juce::MidiKeyboardState& state, Orientation orientation)
         : juce::MidiKeyboardComponent(state, orientation) {
         setKeyWidth(40.0); // Increase key width for larger keys
+        setAvailableRange(24, 96); // C1 C7
+        setLowestVisibleKey(60);
     }
 
 protected:
