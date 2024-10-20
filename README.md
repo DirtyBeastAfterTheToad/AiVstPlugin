@@ -1,4 +1,4 @@
-# VST Plugin Project (C++)
+# VST Plugin Project (C++) 
 
 This project is a VST plugin created using C++ and [Projucer](https://juce.com). 
 
