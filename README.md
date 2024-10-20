@@ -1,6 +1,8 @@
 # VST Plugin Project (C++)
 
-This project is a VST plugin created using C++ and [Projucer](https://juce.com). Follow the instructions below to set up the environment and install the necessary dependencies to get everything working.
+This project is a VST plugin created using C++ and [Projucer](https://juce.com). 
+
+Follow the instructions below to set up the environment and install the necessary dependencies to get everything working.
 
 PLEASE, note that as of now, I'd say that the samples are usable ~1/8 of the time, the current models absolutely want to generate a "whole music", which is crap, but whatever.
 
