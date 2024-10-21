@@ -21,8 +21,8 @@ PLEASE, note that as of now, I'd say that the samples are usable ~1/8 of the tim
 This project uses the following external libraries to function properly:
 
 - [Audiocraft](https://github.com/facebookresearch/audiocraft): A library developed by Facebook Research for high-quality audio synthesis and music generation.
-- [PyTorch](https://pytorch.org/): A deep learning framework used to support CUDA and efficient audio processing.
-- [FFmpeg](https://ffmpeg.org/): A multimedia framework used for handling audio and video processing.
+- [PyTorch](https://pytorch.org/): A deep learning framework used to support CUDA.
+- [FFmpeg](https://ffmpeg.org/): A multimedia framework used for handling audio and video processing. Probably one of the best tool ever made.
   
 ## Installation
 To ensure everything works as expected, follow the setup guide for your operating system.
@@ -111,7 +111,7 @@ Once you have followed the setup instructions, you can take the `.vst3` file fro
 To edit the system prompt, you need to modify line 40 of the `Generate.py` script. This script will be located in your `Documents` folder AFTER the first generation.
 It can be found within the project directory BEFORE building the VST IF you edit it yourself.
 ## Usage
-After installing the VST plugin, open your DAW and add the plugin as an effect or instrument. It should now be ready to use!
+After installing the VST plugin, open your DAW and add the plugin as an instrument (generator). It should now be ready to use!
 
 Feel free to explore and tweak the settings to get the desired sound.
 
